@@ -5,7 +5,7 @@
 
 body {
     background-color: black;
-    background-image: linear-gradient(to bottom, rgb(88, 0, 88), black);
+    background-image: linear-gradient(to bottom, rgb(73, 0, 73), black);
     height: 130vh;
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -28,6 +28,22 @@ input {
     width: 100%;
 }
 
+table {
+    margin: auto;
+    margin-top: 48px;
+    width: 100%;
+    outline: none;
+}
+
+th {
+    padding: 4px 0;
+}
+
+td {
+    padding: 4px 0;
+    text-align: center;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -43,13 +59,3 @@ input {
     margin: auto;
 }
 
-table {
-    margin: auto;
-    margin-top: 48px;
-    width: 100%;
-    outline: none;
-}
-
-th {
-    padding: 4px 0;
-}

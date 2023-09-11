@@ -27,7 +27,7 @@ const n18 = document.getElementById('n18')
 function calcular () {
     let receberValor = parseFloat(receber.value);
 
-    let value0 = (0.0325*receberValor) + receberValor;
+    let value0 = (0.0121*receberValor) + receberValor;
     let value1 = (0.0366*receberValor) + receberValor;
     let value2 = (0.0360*receberValor) + receberValor;
     let value3 = (0.0453*receberValor) + receberValor;
