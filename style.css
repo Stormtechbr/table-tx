@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(88, 0, 88), black);
+    height: 130vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;   
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    margin-top: 32px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.form #sendBtn {
+    margin-top: 24px;
+    padding: 8px 0;
+    width: 50%;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 48px;
+    width: 100%;
+    outline: none;
+}
+
+th {
+    padding: 4px 0;
+}
