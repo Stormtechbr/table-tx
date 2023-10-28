@@ -17,6 +17,8 @@ main {
     width: 80%;
     height: 100%;
     margin-top: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -44,6 +46,11 @@ td {
     text-align: center;
 }
 
+#receber {
+    padding: 8px ;
+    font-size: 24px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -57,5 +64,23 @@ td {
     padding: 8px 0;
     width: 50%;
     margin: auto;
+}
+
+@media (min-width: 800px) {
+    #receber {
+        width: 90%;
+    }
+    .form {
+        margin: auto;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.416);
+        padding: 20px 10px 20px 20px;
+        border-radius: 8px;
+        box-shadow: rgba(109, 108, 108, 0.35) 0px 5px 15px;
+    }
+
+    main {
+        width: 40%;
+    }
 }
 
